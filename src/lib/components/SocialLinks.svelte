@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<a href="https://instagram.com/laila_wolf_"
+	<a href="https://instagram.com/__threesam"
 		><svg
 			viewBox="0 0 15 15"
 			fill="none"
@@ -18,7 +18,7 @@
 			/></svg
 		></a
 	>
-	<a href="https://vm.tiktok.com/ZMdcNppvL/"
+	<a href="https://tiktok.com/@starf7sh"
 		><svg
 			viewBox="0 0 15 15"
 			fill="none"
@@ -28,7 +28,7 @@
 			><path d="M9.5 0v11A3.5 3.5 0 116 7.5m8-2A4.5 4.5 0 019.5 1" stroke="currentColor" /></svg
 		></a
 	>
-	<a href="https://facebook.com/laila.wolf.568"
+	<!-- <a href="https://facebook.com/laila.wolf.568"
 		><svg
 			viewBox="0 0 15 15"
 			fill="none"
@@ -40,8 +40,8 @@
 				fill="currentColor"
 			/></svg
 		></a
-	>
-	<a href="mailto:contact@lailawolf.com"
+	> -->
+	<a href="mailto:sam@threesam.com"
 		><svg
 			viewBox="0 0 16 15"
 			fill="none"
