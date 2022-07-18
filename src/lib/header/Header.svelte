@@ -14,7 +14,7 @@
 	</nav>
 
 	<div class="corner">
-		<!-- TODO put something else here? github link? -->
+		<a href="/"><img src={logo} alt="svelte logo" /></a>
 	</div>
 </header>
 
