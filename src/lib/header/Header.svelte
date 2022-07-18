@@ -29,6 +29,12 @@
 	.corner {
 		width: 3em;
 		height: 3em;
+		filter: grayscale(100%);
+	}
+
+	.corner:hover {
+		transition: 0.3s all ease-in-out;
+		filter: grayscale(0);
 	}
 
 	.corner a {
