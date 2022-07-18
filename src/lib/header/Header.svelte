@@ -6,7 +6,7 @@
 
 <header>
 	<div class="corner">
-		<a href="/">LOGO</a>
+		<a href="/"><img src={logo} alt="svelte logo" /></a>
 	</div>
 
 	<nav>

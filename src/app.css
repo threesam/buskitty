@@ -11,6 +11,7 @@
   /* define colors as colors */
   --green: #00ebc7;
   --red: #ff5470;
+  --orange: #ff3e00;
   --yellow: #fde24f;
   --black: #000000;
   --darkBlue: #00214d;
@@ -20,7 +21,7 @@
   --white: #fff;
 
   /* define colors' intentions */
-  --primary: var(--green);
+  --primary: var(--orange);
   --danger: var(--red);
   --background: var(--lightGrey);
   --textColor: var(--black);

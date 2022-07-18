@@ -75,7 +75,7 @@
 	}
 
 	a:hover {
-		color: var(--green);
+		color: var(--primary);
 		transform: scale(0.97);
 	}
 </style>
