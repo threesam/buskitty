@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Buskitty</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
