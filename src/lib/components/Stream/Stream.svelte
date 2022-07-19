@@ -55,13 +55,13 @@
 		display: block;
 		position: relative;
 		padding-top: 56.25%;
-		/* border: 2px solid var(--primary); */
+		background: linear-gradient(45deg, var(--purple), var(--orange));
 		max-height: 100%;
 		width: 100%;
 	}
 
 	iframe {
-		border: none;
+		border: 0.0625rem solid transparent;
 		position: absolute;
 		top: 0;
 		left: 0;

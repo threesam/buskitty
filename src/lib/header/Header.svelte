@@ -6,7 +6,10 @@
 
 <header>
 	<div class="corner">
-		<a href="/"><img src={logo} alt="svelte logo" /></a>
+		<a href="/">
+			<!-- <img src={logo} alt="svelte logo" /> -->
+			<h3>Buskitty</h3>
+		</a>
 	</div>
 
 	<nav>
@@ -14,7 +17,7 @@
 	</nav>
 
 	<div class="corner">
-		<a href="/"><img src={logo} alt="svelte logo" /></a>
+		<a sveltekit:prefetch href="/about">about</a>
 	</div>
 </header>
 
@@ -27,14 +30,13 @@
 	}
 
 	.corner {
-		width: 3em;
-		height: 3em;
-		filter: grayscale(100%);
+		display: flex;
+		gap: 1rem;
 	}
 
 	.corner:hover {
 		transition: 0.3s all ease-in-out;
-		filter: grayscale(0);
+		color: var(--primary);
 	}
 
 	.corner a {
@@ -56,6 +58,10 @@
 	nav {
 		display: flex;
 		justify-content: center;
+	}
+
+	h3 {
+		margin: 0;
 	}
 
 	svg {

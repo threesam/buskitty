@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 @font-face{
-  font-family: 'Carbon Block';
-  src: url('/fonts/CarbonBlock.tff') format('tff');
+  font-family: 'a dripping marker';
+  src: url('./lib/fonts/adrip1.ttf') format('truetype');
 }
 
 :root {
   /* define colors as colors */
   --green: #00ebc7;
+  --purple: #B04DB9;
   --red: #ff5470;
-  --orange: #ff3e00;
+  --orange: #F49C2D;
   --yellow: #fde24f;
   --black: #000000;
   --darkBlue: #00214d;
@@ -21,7 +22,7 @@
   --white: #fff;
 
   /* define colors' intentions */
-  --primary: var(--orange);
+  --primary: var(--purple);
   --danger: var(--red);
   --background: var(--lightGrey);
   --textColor: var(--black);
@@ -38,8 +39,10 @@
   --borderRadius: 10px;
 
   /* Type */
-  --headingFont: 'Unica One', monospace;
+  /* --headingFont: 'Unica One', monospace; */
+  --headingFont: 'a dripping marker', monospace;
   --bodyFont: 'Vollkorn', serif;
+  --bigText: 5rem;
   --h1: 3.052rem;
   --h2: 2.441rem;
   --h3: 1.953rem;
@@ -129,6 +132,11 @@ h1, h2, h3, h4, h5 {
   font-family: var(--headingFont);
   font-weight: 400;
   line-height: 1.3;
+}
+
+.bigText {
+  margin-top: 0;
+  font-size: var(--bigText);
 }
 
 h1 {
